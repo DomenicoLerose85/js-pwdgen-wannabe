@@ -1,14 +1,55 @@
 body{
-    background-color: red;
+    background-color: rgba(128, 121, 26, 0.774);
 }
 
-.debug{ 
+/* .debug{ 
     border: 1px solid black;
 
-}
+} */
 
 .name {
     width: 80%;
-    height: 50px;
-    background-color: darkred;
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: blue;
+}
+
+.age {
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 50px;
+}
+
+.color {
+    width: 80%;
+    height: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 50px;
+}
+
+#username:hover {
+    color: rgb(55, 55, 218);
+    font-size: x-large;
+}
+
+#userage:hover {
+    color: rgb(35, 37, 37);
+    font-size: x-large;
+}
+
+#userfavouritecolor:hover {
+    color: red;
+    font-size: x-large;
 }
